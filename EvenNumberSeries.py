@@ -5,8 +5,9 @@ sum= 0
 if n%2 == 0:
     for x in range(2,n+1,2):
         sum=sum+x
+    print(sum)
 else:
     print("Sorry! the program is calculate the series of even numbers.Try again.")
 
-print(sum)
+
 
