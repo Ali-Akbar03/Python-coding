@@ -1,9 +1,9 @@
-Students = (
+#we cannot change any values of a tuple 
+tuple = (
+    ("Ali Akbar",18,3.5),
     "Leonel Messi",
-    "Luis Suarez",
-    "Neymar junior"
+    "Ronaldo",
+    "Neymar",
 )
-print(Students[0:]) #It will show first to last all value
-print(Students[1]) #Luis Suarez
-print(Students[0]) #Leonel Messi
-print(Students[2]) #Neymar Junior 
+print(tuple)
+print(tuple[0])
